@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>Blog App</title>
+        <link rel="icon" type="image/gif/png" href="https://cdn2.iconfinder.com/data/icons/font-awesome/1792/pencil-512.png">
+        <link  rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.4/semantic.min.css">
+        <link  rel="stylesheet" type="text/css" href="/stylesheets/app.css">
+        <meta name="google-site-verification" content="BWTW7BXW10h89duLvycTBHCy0CDHXL33UuwJ8P2HQwQ" />
+        <meta name = "description" content= "Blog about joining into the world of programming."
+        <meta name = "keywords" content= "General Assembly", "html5", "CSS", "Javascript", "Python", "General Assembly Pay", "General Assembly Experience", "Austin", "Learn to Code", "General Assembly Review",
+        "DOM","jQuery","express", "node js", "node.js"/> 
+        <meta name = "robots" content = "app,follow"/>
+    </head>
+    <body>
+        <div class="ui fixed inverted menu">
+            <div class="ui container">
+                <div class="header item"><i class="code icon"></i>Blog Site</div>
+                <a href="/" class="item">Home</a>
+                
+                <div class = "right menu">
+                   <% if(!currentUser){ %>
+                        <a href="/login" class="item">Login</a>
+                    <% }else{ %>
+                        <a href="/blogs/new" class="item">New Post</a>
+                        <a href="#" class="item">Signed in as <%=currentUser.username%></a>
+                        <a href="/logout" class="item">Logout</a>
+                    <% } %>
+                   
+                   
+                </div>
+            </div>
+        </div>

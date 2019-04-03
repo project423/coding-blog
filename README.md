@@ -5,6 +5,8 @@ First full stack App I built.  This app uses the standard trio of Javascript, HT
 On the back end I used Node JS with a MongoDB Database, hosted on MLAB, and it is deployed on Heroku.
 
 ![alt text](http://url/to/blog_home.png)
+![](blog_home.png)
+
 
 # Why I Built This App
 I wanted a blog website that I could manage entirely from my browser. Once logged in using local authentication, the user of this app can completely manage

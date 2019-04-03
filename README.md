@@ -1,4 +1,4 @@
-##acpublication.com
+
 # Coding-Blog
 First full stack App I built.  This app uses the standard trio of Javascript, HTML, and CSS for the front end.  
 On the back end I used Node JS with a MongoDB Database, hosted on MLAB, and it is deployed on Heroku.   

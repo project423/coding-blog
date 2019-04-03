@@ -13,4 +13,4 @@ I wanted a blog website that I could manage entirely from my browser. Once logge
 the entries entirely from their browser.  Previous blog apps I have made, I would I have to update the blog post in my text editor then upload the blog
 upload it to a webserver on the back end.  
 
-# Free App for anyone to use
+# Free App for any future blogger to Use!
